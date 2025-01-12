@@ -13,7 +13,7 @@ line_bot_api = LineBotApi(CHANNEL_ACCESS_TOKEN)
 
 def main():
     USER_ID = info["USER_ID"]
-    messages = TextSendMessage(text="おはよう〜\n 朝だよ、起きてね❤️起きろーーーー")
+    messages = TextSendMessage(text="これは自動送信です。\n毎朝7時に送られます。 ")
     line_bot_api.push_message(USER_ID, messages=messages)
 
 
