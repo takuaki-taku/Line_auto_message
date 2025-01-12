@@ -35,10 +35,7 @@ jobs:
           # main.pyの実行
           python main.py
 
-```
 
-
-```yml
 # ワークフロー名
 name: test_chatbot
 
